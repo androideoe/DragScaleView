@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="创建" />
+
+    <RelativeLayout
+        android:id="@+id/draw_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_above="@id/create"
+        android:background="@color/draw_view_bg">
+
+        <com.example.dragscaleview.view.DragRectView
+            android:id="@+id/drag_rect_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.example.dragscaleview.view.DragRectView>
+    </RelativeLayout>
+
+</RelativeLayout>

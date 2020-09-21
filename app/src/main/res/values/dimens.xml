@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--虚线背景框大小-->
+    <dimen name="dottedline_stroke_width">1dp</dimen>
+    <dimen name="dottedline_stroke_height">2dp</dimen>
+    <dimen name="dottedline_dashGap_width">3dp</dimen>
+    <dimen name="dottedline_dashWidth">10dp</dimen>
+</resources>

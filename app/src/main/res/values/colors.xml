@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--透明背景-->
+    <color name="transparent">#00000000</color>
+    <!--虚线边框背景颜色-->
+    <color name="dottedline_bg">#0497ff</color>
+    <!--画板背景颜色-->
+    <color name="draw_view_bg">#FFF4F5F6</color>
+</resources>
